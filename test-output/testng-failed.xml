@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="componantTestingPractice.DynamicDropDownSpicejet">
+      <class name="componantTestingPractice.ParameterWithTestNGXML">
         <methods>
-          <include name="search"/>
-          <include name="setUp"/>
-          <include name="burnDown"/>
+          <include name="testParameterWithXML"/>
         </methods>
-      </class> <!-- componantTestingPractice.DynamicDropDownSpicejet -->
+      </class> <!-- componantTestingPractice.ParameterWithTestNGXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
