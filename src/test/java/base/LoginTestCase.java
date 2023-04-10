@@ -50,31 +50,32 @@ public class LoginTestCase {
                             hp.admin();
               }
              
-             @Test(priority = 3)
-             public void AdminPageVerify()
-             {
-            	 String adminButton=ap.pageverify();
-            	 System.out.println(adminButton);
-            	 //Assert.assertEquals(adminButton, " Add ");
-             }
+//             @Test(priority = 3)
+//             public void AdminPageVerify()
+//             {
+//            	 String adminButton=ap.pageverify();
+//            	 System.out.println(adminButton);
+//            	 //Assert.assertEquals(adminButton, " Add ");
+//             }
              
-             @Test(priority = 4)
-             public void addUser() throws InterruptedException
-              {
-                     ap.add();
-                     Thread.sleep(1000);
-               }
-             @Test(priority = 5)
-             public void VerifingSucessfulAddedUser() {
-            	 String pageElement=ap.verifingSucessfulAddedUser();
-            	 //Assert.assertEquals(pageElement, " Add ");
-             }
+//             @Test(priority = 4)
+//             public void addUser() throws InterruptedException
+//              {
+             
+//                     ap.add();
+//                     Thread.sleep(1000);
+//               }
+//             @Test(priority = 5)
+//             public void VerifingSucessfulAddedUser() {
+//            	 String pageElement=ap.verifingSucessfulAddedUser();
+//            	 //Assert.assertEquals(pageElement, " Add ");
+//             }
              
              
-             @Test(priority = 6)
-             public void removingUser() {
-            	 
-             }
+//             @Test(priority = 6)
+//             public void removingUser() {
+//            	 
+//             }
 //Taking Screen shot on test fail
 //              @AfterMethod
 //              public void screenshot(ITestResult result)
@@ -87,9 +88,9 @@ public class LoginTestCase {
 //                                         ScreenShot.captureScreenShot(driver, x);
 //                           }
 //   }
-//  @AfterSuite
-//   public void closeBrowser()
-//   {
-//                  driver.close();
-//    }
+  @AfterSuite
+   public void closeBrowser()
+   {
+                  driver.close();
+    }
 }

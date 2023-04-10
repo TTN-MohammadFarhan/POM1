@@ -5,13 +5,8 @@
     <classes>
       <class name="paractice.LoginTestCase">
         <methods>
-          <include name="Login"/>
-          <include name="AdminPageVerify"/>
           <include name="browserlaunch"/>
           <include name="VerifingSucessfulAddedUser"/>
-          <include name="removingUser"/>
-          <include name="addUser"/>
-          <include name="HomePageVerify"/>
         </methods>
       </class> <!-- paractice.LoginTestCase -->
     </classes>

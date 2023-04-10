@@ -7,7 +7,6 @@
         <methods>
           <include name="VerifingSucessfulAddedUser"/>
           <include name="browserlaunch"/>
-          <include name="addUser"/>
         </methods>
       </class> <!-- base.LoginTestCase -->
     </classes>
