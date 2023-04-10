@@ -5,13 +5,8 @@
 <parameter name="searchKey" value="India" /> -->
   <test thread-count="5" name="Test">
 	 <!--  <parameter name="searchKey" value="UK" /> -->
-    <classes>
-		<class name="paractice.LoginTestCase"></class>
-		<!-- 
-		<class name="componantTestingPractice.ParameterWithTestNGXML"/>
-      <class name="componantTestingPractice.FluentWait"/>
-		
-		-->
-    </classes>
+   <classes>
+<class name="base.LoginTestCase"/>
+</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

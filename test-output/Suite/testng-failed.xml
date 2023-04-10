@@ -3,16 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="paractice.LoginTestCase">
+      <class name="base.LoginTestCase">
         <methods>
-          <include name="Login"/>
+          <include name="VerifingSucessfulAddedUser"/>
           <include name="AdminPageVerify"/>
           <include name="browserlaunch"/>
-          <include name="VerifingSucessfulAddedUser"/>
-          <include name="addUser"/>
           <include name="HomePageVerify"/>
+          <include name="addUser"/>
         </methods>
-      </class> <!-- paractice.LoginTestCase -->
+      </class> <!-- base.LoginTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
