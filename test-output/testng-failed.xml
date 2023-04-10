@@ -6,9 +6,7 @@
       <class name="base.LoginTestCase">
         <methods>
           <include name="VerifingSucessfulAddedUser"/>
-          <include name="AdminPageVerify"/>
           <include name="browserlaunch"/>
-          <include name="HomePageVerify"/>
           <include name="addUser"/>
         </methods>
       </class> <!-- base.LoginTestCase -->

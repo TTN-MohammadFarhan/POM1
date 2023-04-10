@@ -1,12 +1,16 @@
 package base;
 
 	import java.util.concurrent.TimeUnit;
+	
+	
 
 import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 	import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 	public class Browser {
 
@@ -27,9 +31,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	                    else if(browsername.equalsIgnoreCase("Chrome"))
 	                     {
 	                                 // Set the path for chromedriver.exe
-	                    	System.setProperty("webdriver.chrome.driver",
-	            					"C://Users//Mohammad Farhan//Downloads//chromedriver_win32/chromedriver.exe");
-	            			driver = new ChromeDriver();
+										/*
+										 * // System.setProperty("webdriver.chrome.driver", //
+										 * "BeamSplitterFrameWork//chrome/chromedriver.exe");
+										 * 
+										 */	            		
+	                    	WebDriverManager.chromedriver().setup();
+	                    	driver = new ChromeDriver();
 
 	                     }
 	                    // If the browser is IE
