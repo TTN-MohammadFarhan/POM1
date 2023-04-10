@@ -32,7 +32,7 @@ public class HoverAction {
 		ac.moveToElement(live).build().perform();
 
 		Thread.sleep(3000);
-
+		
 		WebElement automate= driver.findElement(By.cssSelector("div.product-cards-wrapper--click a[title='App Automate']"));
 		automate.click();
 		Thread.sleep(2000);

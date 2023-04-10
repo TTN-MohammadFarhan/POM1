@@ -7,7 +7,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import base.Browser;
-public class SwitchToframe   {
+public class frame   {
 public static void main(String[] args) throws NoSuchElementException, InterruptedException{
 	    WebDriver driver = Browser.StartBrowser("Chrome", "https://demo.guru99.com/test/guru99home/");
 	   // driver.get("https://demo.guru99.com/test/guru99home/");  
