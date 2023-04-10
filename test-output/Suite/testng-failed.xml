@@ -6,8 +6,9 @@
       <class name="paractice.LoginTestCase">
         <methods>
           <include name="Login"/>
+          <include name="AdminPageVerify"/>
           <include name="browserlaunch"/>
-          <include name="closeBrowser"/>
+          <include name="VerifingSucessfulAddedUser"/>
           <include name="addUser"/>
           <include name="HomePageVerify"/>
         </methods>

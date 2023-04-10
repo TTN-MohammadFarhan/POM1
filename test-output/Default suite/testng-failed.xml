@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="componantTestingPractice.ParameterWithTestNGXML">
+      <class name="paractice.LoginTestCase">
         <methods>
-          <include name="testParameterWithXML"/>
+          <include name="browserlaunch"/>
+          <include name="VerifingSucessfulAddedUser"/>
+          <include name="addUser"/>
         </methods>
-      </class> <!-- componantTestingPractice.ParameterWithTestNGXML -->
+      </class> <!-- paractice.LoginTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
