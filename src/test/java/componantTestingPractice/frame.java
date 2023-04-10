@@ -1,6 +1,7 @@
 package componantTestingPractice;
 
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -34,7 +35,7 @@ public static void main(String[] args) throws NoSuchElementException, Interrupte
 	    }
 	 }
 	if(!s.isEmpty())            
-	driver.switchTo().window(s.stream().toList().get(0));
+	driver.switchTo().window(s.stream().collect(Collectors.toList()).get(0));
 		
 		//Clicking the element in line with Advertisement
 	    System.out.println("*********We are done***************");
